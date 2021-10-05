@@ -13,11 +13,6 @@ app.get("/", (req, res) => {
     res.status(200).send("Hello from Homepage");
 })
 
-
-
-
-
-
 app.listen(PORT, () => {
     console.log("Servidor Funcionando");
 })
